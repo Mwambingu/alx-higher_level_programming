@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 from sys import argv
 if len(argv) == 1:
-    print("{:d} arguments".format(0))
+    print("{:d} arguments.".format(0))
 elif len(argv) == 2:
     print("{:d} argument:".format(1))
     print("{:d}: {}".format(1, argv[1]))
