@@ -9,4 +9,3 @@ def multiple_returns(sentence):
 
     tuple_sen = (s_len, f_char)
     return tuple_sen
-
