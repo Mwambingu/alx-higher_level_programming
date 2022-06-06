@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 def add_tuple(tuple_a=(), tuple_b=()):
+    if not tuple_a:
+        if not tuple_b:
+            tuple_C = (0, 0)
+            return tuple_c
     if len(tuple_a) == 1:
         v_a0 = tuple_a[1]
         v_a1 = 0
