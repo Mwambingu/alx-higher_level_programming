@@ -1,2 +1,1 @@
-# ALX High Level Programming
-## With Python
+# 0x06-python-classes
