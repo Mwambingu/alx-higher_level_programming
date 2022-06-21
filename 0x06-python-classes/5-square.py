@@ -30,7 +30,10 @@ class Square:
         return result
 
     def my_print(self):
-        """Prints a square using #"""
+        """Prints a square using #
+        Returns:
+            None
+        """
         for i in range(self.__size):
             for j in range(self.__size):
                 print("{}".format("#"), end="")
