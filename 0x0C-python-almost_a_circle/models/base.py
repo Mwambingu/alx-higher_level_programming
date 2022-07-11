@@ -2,6 +2,7 @@
 """
 Contains a class base
 """
+import json
 
 class Base:
     """Base Class"""
