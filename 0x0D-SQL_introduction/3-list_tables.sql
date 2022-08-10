@@ -1,2 +1,2 @@
--- Lists all tables of database hbtn_0c_0.
+-- Lists all tables of a database.
 SHOW TABLES;
