@@ -1,10 +1,13 @@
 #!/usr/bin/node
-import { argv } from 'node:process';
-
-if (argv.length === 3) {
-  console.log(argv[2]);
-} else if (argv.length < 3) {
+const listNum = process.argv;
+let count = 0;
+listNum.forEach(function () {
+  count++;
+});
+if (count === 2) {
   console.log('No argument');
+} else if (count === 3) {
+  console.log(listNum[2]);
 } else {
   console.log('Arguments found');
 }
