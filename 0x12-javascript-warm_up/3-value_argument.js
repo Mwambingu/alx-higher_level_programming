@@ -1,13 +1,7 @@
 #!/usr/bin/node
-const listNum = process.argv;
-let count = 0;
-listNum.forEach(function () {
-  count++;
-});
-if (count === 2) {
-  console.log('No argument');
-} else if (count === 3) {
-  console.log(listNum[2]);
+const arg = process.argv[2];
+if (arg !== undefined) {
+  console.log(arg);
 } else {
-  console.log('Arguments found');
+  console.log('No argument');
 }
