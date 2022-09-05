@@ -6,4 +6,4 @@ if (isNaN(times)) {
   for (let i = 0; i < times; i++) {
     console.log('C is fun');
   }
-} 
+}
